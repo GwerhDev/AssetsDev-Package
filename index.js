@@ -1,6 +1,6 @@
 const { getIcon } = require('./modules/getIcon');
 
-class IconLoader {
+class AssetsDev {
   constructor() {}
 
   getIcon(iconName) {
@@ -8,4 +8,4 @@ class IconLoader {
   }
 }
 
-module.exports = IconLoader;
+module.exports = AssetsDev;
