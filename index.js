@@ -7,5 +7,5 @@ class AssetsDev {
     return getIcon(iconName);
   }
 }
-
+ 
 module.exports = AssetsDev;
