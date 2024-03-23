@@ -1,6 +1,6 @@
 # AssetsDev Package
 
-A free package tool with icons for your dev projects!
+A free package tool with svg icons for your dev projects!
 
 ### Install
 
