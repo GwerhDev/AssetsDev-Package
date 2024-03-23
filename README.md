@@ -1,6 +1,6 @@
-## AssetsDev Package
+# AssetsDev Package
 
-#### Install
+### Install
 
 Install dependecies in your project
 
@@ -8,6 +8,6 @@ Install dependecies in your project
 npm i assets-dev
 ```
 
-#### Usage
+### Usage
 
 Developing methods...
