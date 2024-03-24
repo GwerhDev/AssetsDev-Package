@@ -1,11 +1,7 @@
-const { getIcon } = require('./modules/getIcon');
-
-class AssetsDev {
-  constructor() {}
-
-  getIcon(iconName) {
-    return getIcon(iconName);
-  }
-}
+const { 
+  getIcon,
+} = require('./lib/modules/AssetsDev');
  
-module.exports = AssetsDev;
+module.exports = {
+  getIcon,
+};
