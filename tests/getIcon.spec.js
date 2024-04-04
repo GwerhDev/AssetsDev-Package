@@ -1,6 +1,6 @@
-const { getIcon } = require("../lib/assets-dev");
+const { getIcon } = require("../");
 
 test('La función getIcon devuelve un string', () => {
-  const resultado = getIcon("test");
-  expect(typeof resultado).toBe('string');
+  const result = getIcon("shield");
+  expect(typeof result).toBe('string');
 });

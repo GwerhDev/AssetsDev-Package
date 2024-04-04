@@ -1,6 +1,7 @@
-const { listIcon } = require("../lib/assets-dev");
+const { listIcon } = require('../');
 
-test('La función getIcon devuelve un string', () => {
-  const resultado = listIcon();
-  expect(typeof resultado).toBe('string');
+test('La función listIcon devuelve un array', () => {
+  const result = listIcon();
+  console.log(result)
+  expect(Array.isArray(result)).toBe(true);
 });
